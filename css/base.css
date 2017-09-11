@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    /*清除a的*/
+    text-decoration: none;
+    /*默认值box-sizing: content-box;*/
+    box-sizing: border-box;
+    list-style: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+a{
+    display: block;
+    border: 0;
+}

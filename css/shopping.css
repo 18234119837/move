@@ -1,0 +1,229 @@
+body{
+    background: #F4F4F6;
+}
+header{
+    width: 100%;
+    height: .64rem;
+    background: yellowgreen;
+    padding:.12rem .14rem 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 999;
+}
+footer{
+    width: 100%;
+    height:.64rem;
+    background: yellowgreen;
+    position: fixed;
+    bottom:0;
+    left: 0;
+}
+/*根据一屏撑开大小*/
+section{
+    position: absolute;
+    left: 0;
+    right:0;
+    top:.64rem;
+    bottom: .64rem;
+    margin: auto;
+
+overflow-y: scroll;
+    /*overflow: auto;*/
+}
+header a{
+    width: .4rem;
+    height: .4rem;
+    background: gray;
+}
+.head-center{
+    width: 1.9rem;
+    height: .4rem;
+    background: gray;
+}
+.head-center .logo{
+    width: 1rem;
+    height: auto;
+    background: yellowgreen;
+    float: left;
+    /*margin-top: .1rem;*/
+}
+.logo-next{
+    width: .9rem;
+    height: .4rem;
+    background: papayawhip;
+    padding:.2rem 0 0;
+    float: left;
+}
+
+/*导航开始*/
+nav{
+    width:7.5rem;
+    height: .58rem;
+    background:#39424A;
+    padding:.11rem .25rem;
+    overflow: hidden;
+}
+.nav-inner{
+    width: 8.1rem;
+    height: 100%;
+    overflow: hidden;
+}
+.nav-inner li{
+    float: left;
+    font-size: .22rem;
+    line-height: .36rem;
+    border-right:1px solid #4A5259 ;
+    padding:0 .25rem;
+    color: #CBCFD6;
+}
+.nav-inner li.del-nav-padding{
+    padding-left: 0;
+}
+.nav-inner li.del-lastline{
+    border-right: 0;
+}
+/*导航结束*/
+/*banner开始*/
+.banner{
+    width: 100%;
+    height: 2.16rem;
+    background: yellowgreen;
+    position: relative;
+}
+.banner-img{
+    width: 7.5rem;
+    height: 2.2rem;
+    background: #b0b0b0;
+}
+.banner-dian{
+    width:.8rem;
+    height: .12rem;
+    background:yellow;
+    position: absolute;
+    bottom: .16rem;
+    right:.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-dian li{
+    width:.12rem;
+    height: .12rem;
+    background: #9998A4;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+/*banner结束*/
+/*商品列表开始*/
+.things{
+    width: 7.5rem;
+    height: 1.68rem;
+    /*background: yellow;*/
+    display: flex;
+}
+.things-top{
+    margin-top: .2rem;
+}
+.things li{
+    width: 20%;
+    height: 1.68rem;
+    padding:.2rem 0 0;
+}
+.things li span{
+    display: block;
+    font-size: .2rem;
+    margin-top: .1rem;
+    text-align: center;
+}
+.things-img{
+    width: 1em;
+    height: 1em;
+    /*background: fuchsia;*/
+    margin: 0 auto;
+}
+/*商品列表结束*/
+/*特价商品开始*/
+.sale-img{
+    width: 7.5rem;
+    height: 1.15rem;
+    background: peachpuff;
+}
+.sale-inner{
+    width: 7.5rem;
+    height: 3.4rem;
+    display: flex;
+    padding:0 .2rem;
+    justify-content: space-between;
+}
+.sale-inner li{
+    width: 2.3rem;
+    height: 3.4rem;
+    background: pink;
+    float: left;
+}
+
+/*特价商品结束*/
+/*广告开始*/
+.new-img{
+    width: 7.1rem;
+    height: 1.8rem;
+    background: yellowgreen;
+    margin: .2rem auto;
+}
+/*广告结束*/
+/*今日推荐开始*/
+.main-bottom{
+    width: 100%;
+    height: auto;
+    background: white;
+}
+.main-bottom-inner1{
+    width: 5.4rem;
+    height: 3.64rem;
+    margin: 0 auto;
+    font-size: .12rem;
+}
+.inner1-txt1{
+    width: 100%;
+    height: .54rem;
+    display: block;
+    font-size: .2rem;
+    text-align: center;
+    line-height: .54rem;
+}
+.inner1-img{
+    width: 100%;
+    height: 2.5rem;
+    position: relative;
+}
+.inner1-txt2{
+    width: 5.4rem;
+    height: .34rem;
+    background:rgba(255,255,255,0.6);
+    z-index: 999;
+    display: block;
+    padding-left: .16rem;
+    line-height: .34rem;
+    color: #39424a;
+    font-size: .18rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.inner1-bottom{
+    width: 100%;
+    height: .6rem;
+    /*background: peachpuff;*/
+    font-size: .2rem;
+    padding-left: .16rem;
+    line-height: .6rem;
+    border-bottom: 1px solid #d8d8d8;
+}
+.inner1-bottom span:nth-child(1){
+    color: #E4007F;
+}
+
+
+/*今日推荐结束*/
